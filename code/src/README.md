@@ -24,7 +24,7 @@ Ovo je kompletno rješenje za tri zadatka iz kolegija **Programiranje robota**:
 src/
 ├── zadatak_1/
 │   ├── hartl_kresimir_01.kl       # KAREL program - paletizacija
-│   ├── HARTL_KRESIMIR_01.ls       # TP program - gibanje
+│   ├── MOVE_ZADATAK_01.ls         # TP program - gibanje
 │   └── README_zadatak_1.md        # Upute za Zadatak 1
 │
 ├── zadatak_2/
@@ -34,7 +34,7 @@ src/
 │
 ├── zadatak_3/
 │   ├── hartl_kresimir_03.kl       # KAREL program - bušenje
-│   ├── HARTL_KRESIMIR_03.ls       # TP program - izvršavanje
+│   ├── MOVE_ZADATAK_03.ls         # TP program - izvršavanje
 │   ├── KOORDINATE.txt             # Testna datoteka s koordinatama
 │   └── README_zadatak_3.md        # Upute za Zadatak 3
 │
@@ -50,7 +50,7 @@ Program generira koordinate za **16 paletnih mjesta** i sprema ih u pozicijske r
 
 ### 📁 Datoteke
 - `hartl_kresimir_01.kl` - KAREL program
-- `HARTL_KRESIMIR_01.ls` - TP program
+- `MOVE_ZADATAK_01.ls` - TP program
 
 ### 🎮 Funkcionalnost
 - ✅ Automatsko generiranje 4×4 mreže paletnih mjesta
@@ -63,7 +63,7 @@ Program generira koordinate za **16 paletnih mjesta** i sprema ih u pozicijske r
 ### 🚀 Brzi start
 ```bash
 1. Otvori Karel Tool → Build → Download
-2. Učitaj HARTL_KRESIMIR_01.ls
+2. Učitaj MOVE_ZADATAK_01.ls
 3. Postavi PR[1] kao HOME poziciju
 4. SELECT → KAREL → HARTL_PALETIZATION
 5. Pokreni program i unesi parametre
@@ -124,7 +124,7 @@ Program čita koordinate iz datoteke **KOORDINATE.txt** i izvršava robotsko poz
 
 ### 📁 Datoteke
 - `hartl_kresimir_03.kl` - KAREL program
-- `HARTL_KRESIMIR_03.ls` - TP program
+- `MOVE_ZADATAK_03.ls` - TP program
 - `KOORDINATE.txt` - Primjer datoteke s koordinatama
 
 ### 🎮 Funkcionalnost
@@ -150,7 +150,7 @@ Program čita koordinate iz datoteke **KOORDINATE.txt** i izvršava robotsko poz
 ```bash
 1. Kopiraj KOORDINATE.txt na MC: device
 2. Otvori Karel Tool → Build → Download
-3. Učitaj HARTL_KRESIMIR_03.ls
+3. Učitaj MOVE_ZADATAK_03.ls
 4. SELECT → KAREL → HARTL_DRILLING
 5. Program čita datoteku i izvršava bušenje
 ```
@@ -325,7 +325,7 @@ END naziv
 
 ### Zadatak 1:
 - [ ] `hartl_kresimir_01.kl` kompajliran
-- [ ] `HARTL_KRESIMIR_01.ls` učitan
+- [ ] `MOVE_ZADATAK_01.ls` učitan
 - [ ] Testiran s različitim parametrima
 - [ ] Validacija unosa radi ispravno
 
@@ -337,7 +337,7 @@ END naziv
 
 ### Zadatak 3:
 - [ ] `hartl_kresimir_03.kl` kompajliran
-- [ ] `HARTL_KRESIMIR_03.ls` učitan
+- [ ] `MOVE_ZADATAK_03.ls` učitan
 - [ ] `KOORDINATE.txt` kopiran na MC:
 - [ ] Testirano s primjer podacima
 

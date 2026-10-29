@@ -30,7 +30,9 @@ Python API and uses the Image Processing Editor add-in with fiducial markers and
 |---|---|
 | `robodk/src/zadatak_1.py` | Moves a robot between two targets with MoveL, MoveJ and MoveC, records the tool pose and joint values, and plots tool position, joint angles, velocities and accelerations. |
 | `robodk/outputs/zadatak_01` | The four plots produced by the script. |
-| `robodk/robodk_stations` | RoboDK stations for tasks 1 and 3. |
+| `robodk/robodk_stations` | RoboDK stations for tasks 1 and 3, and a second set of the task 1 plots in `Robot_Analysis_Results`. |
+| `robodk/zadatak_2` | RoboDK station for task 2. |
+| `robodk/data/raw/video` | Two video recordings from the augmented reality task, one of them marked `-AR`. |
 | `robodk/markers` | ArUco and ChArUco markers used in the image processing task. |
 
 ### Other folders
@@ -38,14 +40,16 @@ Python API and uses the Image Processing Editor add-in with fiducial markers and
 | Path | Contents |
 |---|---|
 | `report/` | The RoboDK report in Croatian ([PDF](report/Kresimir_Hartl_RoboDK.pdf)): motion comparison graphs, the Image Processing Editor add-in, fiducial markers, camera set-up and calibration, and the augmented reality pipeline. |
-| `fanuc/` | Course reference material: FANUC TP and KAREL notes, the KAREL reference manual and example programs. |
-| `*.pdf` in the root | The assignment texts. |
 
 ## How to run
 
-**KAREL tasks.** Build each `.kl` file in Roboguide's Karel Tool, download it to the controller,
-load the matching `.ls` TP program and start the KAREL program from the SELECT menu. The step by
-step instructions for each task are in [`code/src/README.md`](code/src/README.md) (Croatian).
+The assignment texts, the course notes, the FANUC manuals and the example programs from the
+course are not in the repository.
+
+**KAREL tasks.** Build each `.kl` file in Roboguide's Karel Tool (the compiled `.pc` files are not
+in the repository), download it to the controller, load the matching `.ls` TP program and start
+the KAREL program from the SELECT menu. The step by step instructions for each task are in
+[`code/src/README.md`](code/src/README.md) (Croatian).
 
 **RoboDK motion comparison.** Open `robodk/robodk_stations/zadatak_1.rdk` in RoboDK. The station
 needs the targets `Point_1`, `Point_2` and `Mid_Point` and the tool `Tool 1`. Then run:

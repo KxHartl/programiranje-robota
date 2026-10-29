@@ -14,7 +14,7 @@ Program učitava koordinate iz datoteke **KOORDINATE.txt** i izvršava robotsko 
 ## 📁 Datoteke
 
 - **`hartl_kresimir_03.kl`** - KAREL program (glavna logika)
-- **`HARTL_KRESIMIR_03.ls`** - TP program (izvršavanje bušenja)
+- **`MOVE_ZADATAK_03.ls`** - TP program (izvršavanje bušenja)
 - **`KOORDINATE.txt`** - Datoteka s koordinatama (primjer)
 - **`README_zadatak_3.md`** - Ovaj dokument s uputama
 
@@ -70,7 +70,7 @@ b) Postavljanje brzine:
    - R[10] = brzina [mm/s]
 
 c) Pokretanje TP programa:
-   - HARTL_KRESIMIR_03 izvršava bušenje
+   - MOVE_ZADATAK_03 izvršava bušenje
 ```
 
 ### 4. Završetak
@@ -116,7 +116,7 @@ c) Pokretanje TP programa:
 #### B) TP program
 1. **TP Program List**
 2. **Edit → Load Program from File**
-3. Odaberi `HARTL_KRESIMIR_03.ls`
+3. Odaberi `MOVE_ZADATAK_03.ls`
 
 ### 3. PROVJERA PRIJE POKRETANJA
 
@@ -225,7 +225,7 @@ CNV_STR_CONF('NUT000', robot_config, status)
 - Ime mora biti točno `KOORDINATE.txt` (velika slova)
 - Provjeri putanju u CONST dijelu KAREL programa
 
-### Problem: "Program HARTL_KRESIMIR_03 not found"
+### Problem: "Program MOVE_ZADATAK_03 not found"
 **Rješenje:**
 - Učitaj .ls program u TP Program List
 - Provjeri ime programa u .ls datoteci

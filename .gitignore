@@ -52,3 +52,24 @@ desktop.ini
 *.swp
 *.swo
 *~
+
+# Virtual environments with any suffix (e.g. robodk/.venv_robodk)
+.venv*/
+
+# Compiled KAREL p-code (build output of the .kl sources)
+*.pc
+
+# Office lock files
+~$*
+
+# Kept on disk only: third-party material (public repository)
+# course reference material, FANUC manuals and teachers' example programs
+fanuc/
+# assignment texts and the task list naming classmates
+01_Programiranje_robota_zad*.pdf
+ProgramskiZadatak_2425.pdf
+# teachers' example video and RoboDK library examples and robot files
+robodk/Programski zadatak - Primjer.mp4
+robodk/examples/
+robodk/zadatak_2/robodk primjer/
+robodk/robots/

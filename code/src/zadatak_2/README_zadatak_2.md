@@ -63,7 +63,7 @@ FLG[2] = OFF (za slanje pri završetku gibanja)
 
 Prije pokretanja Zadatka 2, **obavezno** učitaj programe iz Zadatka 1:
 - `hartl_kresimir_01.kl` (KAREL)
-- `HARTL_KRESIMIR_01.ls` (TP)
+- `MOVE_ZADATAK_01.ls` (TP)
 
 Također postavi **PR[1]** HOME poziciju (vidi README Zadatka 1).
 
@@ -236,7 +236,7 @@ ENDIF
 
 ### Postavljanje FLG[1] u TP programu
 
-U `HARTL_KRESIMIR_01.ls` dodaj:
+U `MOVE_ZADATAK_01.ls` dodaj:
 ```
 5:  FLG[1]=(ON) ;    -- Početak gibanja
 6:  J PR[...] ... ;   -- Gibanje robota

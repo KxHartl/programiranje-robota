@@ -12,7 +12,7 @@ Nakon unosa, program pokreće TP program koji pozicionira robota na odabrano pal
 ## 📁 Datoteke
 
 - **`hartl_kresimir_01.kl`** - KAREL program (glavna logika)
-- **`HARTL_KRESIMIR_01.ls`** - TP program (izvršavanje gibanja)
+- **`MOVE_ZADATAK_01.ls`** - TP program (izvršavanje gibanja)
 - **`README_zadatak_1.md`** - Ovaj dokument s uputama
 
 ## 🎯 Funkcionalne značajke
@@ -59,7 +59,7 @@ Za svaku iteraciju korisnik može unijeti:
 #### B) TP program
 1. Otvori **TP Program List**
 2. **Edit → Load Program from File**
-3. Odaberi `HARTL_KRESIMIR_01.ls`
+3. Odaberi `MOVE_ZADATAK_01.ls`
 
 ### 2. Postavljanje HOME pozicije
 
@@ -184,7 +184,7 @@ position.R = 180     -- Promijeni orijentaciju alata
 
 ## 🐛 Mogući problemi
 
-### Problem: "Program HARTL_KRESIMIR_01 not found"
+### Problem: "Program MOVE_ZADATAK_01 not found"
 **Rješenje:** Učitaj .ls program u TP Program List
 
 ### Problem: "Invalid Configuration NUT000"
