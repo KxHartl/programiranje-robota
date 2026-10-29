@@ -60,3 +60,7 @@ python src/zadatak_1.py
 ```
 
 The plots are written to `robodk/outputs/zadatak_01`.
+
+## License
+
+[Apache-2.0](LICENSE). It covers the author's own work in this repository. Third-party parts keep their own licences.
